@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="finder">
+        <div class="studentForm">
+            <div class="form">
+                <h2>Sort Three Numbers</h2>
+                <form action="">
+                    <label for="num1"> <b>Enter Number 1 : </b></label> <br>
+                    <input type="number" id="num1">
+
+                    <label for="num2"> <b>Enter Number 2 :</b> </label><br>
+                    <input type="number" id="num2">
+
+                    <label for="num3"> <b>Enter Number 3 :</b></label><br>
+                    <input type="number" id="num3">
+
+
+
+
+                    <div class="input-group">
+                        <label for="sortOrder"> <b>Sort Order:</b></label>
+                        <select id="sortOrder">
+                            <option value="ascending">Ascending</option>
+                            <option value="descending">Descending</option>
+                        </select>
+                    </div>
+
+
+                    <div class="button">
+                        <input type="submit" value="Sort" id="submit" onclick="sort(event)">
+
+                        <input type="button" id="clearBtn" value="clear" onclick="clearFields()">
+                    </div>
+                </form>
+                <div id="resultNumber">
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+   <script src="script.js"></script>
+</body>
+
+</html>

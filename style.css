@@ -1,0 +1,110 @@
+
+        h2 {
+            color: #6c6a79;
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 25px;
+        }
+
+        .form {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.501);
+            padding: 35px;
+            max-width: 400px;
+            width: 100%;
+            text-align: left;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #b6aebe;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #555;
+        }
+
+        #resultNumber {
+            background-color: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 25px;
+            text-align: left;
+            border-left: 5px solid #543d9c;
+        }
+
+
+
+
+
+        #submit {
+            background-color: #543d9c;
+
+
+
+            color: white;
+            padding: 10px 20PX;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 8px;
+            width: 45%;
+
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 25px;
+        }
+
+        #clearBtn {
+            background-color: #543d9c;
+
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 8PX;
+            width: 43%;
+        }
+
+        .finder {
+            display: flex;
+            justify-content: center;
+            width: 50%;
+            align-items: center;
+        }
+
+        #sortOrder {
+            width: 400px;
+            padding: 8px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        
