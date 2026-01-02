@@ -10,10 +10,10 @@
 
 
             let number = [num1, num2, num3];
-            if (order === "asc") {
+            if (order === "ascending") {
                 number.sort((x, y) => x - y);
             }
-            else if (order === "des") {
+            else if (order === "descending") {
                 number.sort((x, y) => y - x);
 
             } else {
@@ -33,4 +33,5 @@
             document.getElementById('num1').value = '';
             document.getElementById('num2').value = '';
             document.getElementById('num3').value = '';
-        } document.getElementById('resultNumber').innerHTML = " ";
+            document.getElementById('resultNumber').innerHTML = " ";
+        }
